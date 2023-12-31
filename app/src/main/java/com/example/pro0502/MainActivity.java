@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void clicked(View view) {
+    public void clicked(View view){
         clicksNumber++;
         txView.setText("This is a click number:"+clicksNumber);
     }
